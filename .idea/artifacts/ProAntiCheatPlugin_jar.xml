@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProAntiCheatPlugin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProAntiCheatPlugin_jar</output-path>
+    <root id="archive" name="ProAntiCheatPlugin.jar">
+      <element id="module-output" name="ProAntiCheatPlugin.main" />
+    </root>
+  </artifact>
+</component>

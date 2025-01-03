@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'org.bukkit.plugin' version '1.1.0' // For Bukkit/Spigot
+}
+
+group = 'com.proslayerz'
+version = '1.0.0'
+archivesBaseName = 'ProAntiCheat'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://papermc.io/repo/repository/maven-public/' }
+}
+
+dependencies {
+    // Paper API for development
+    compileOnly "io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT"
+}
+

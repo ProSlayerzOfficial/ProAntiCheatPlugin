@@ -1,0 +1,15 @@
+name: ProAntiCheat
+version: 1.0.0
+main: _proping.proAntiCheatPlugin.ProAntiCheatPlugin
+
+
+api-version: 1.21
+commands:
+  proanticheat:
+    description: The main command for managing ProAntiCheat
+    usage: /<command>
+permissions:
+  anticheat.see:
+    description: Allows users to see anti-cheat alerts
+    default: op
+
